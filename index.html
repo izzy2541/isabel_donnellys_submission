@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bellroy robot</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/gxn0lpg.css">
+  <script defer src="js/grid.js"></script>
+  <script defer src="js/move.js"></script>
+</head>
+
+<body>
+  <!-- pseudo nav -->
+  <div id="nav">bellroy robot</div>
+
+  <!-- container for svg and controls -->
+  <div id="robot_container">
+
+    <!-- svg containing grid and robot -->
+    <svg height="100%" width="100%" viewBox="0 0 600 600" class="mySvg">
+      <g id="grid_lines"></g>
+      <image id="robotImage" href="img/south.svg" class="robot_image south" x="190" y="185" height="200" />
+    </svg>
+
+    <!-- buttons -->
+    <div id="control_panel">
+      <div id="rotate">
+        <p>Rotate:</p>
+        <p>
+          <button id="north" onClick="moveRobot('north')">N</button>
+          <button id="east" onClick="moveRobot('east')">E</button>
+          <button id="south" onClick="moveRobot('south')">S</button>
+          <button id="west" onClick="moveRobot('west')">W</button>
+        </p>
+      </div>
+      <div id="move">
+        <p>Move:</p>
+        <button id="forwards" onClick="moveRobot(null, true)">Forwards</button>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

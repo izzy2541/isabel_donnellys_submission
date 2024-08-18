@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 422.4 398.2">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-6, .cls-5 {
+        fill: #a2a8a2;
+      }
+
+      .cls-2 {
+        fill: #e05b26;
+        stroke-width: 4px;
+      }
+
+      .cls-3 {
+        stroke: #576253;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 12px;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #a2a8a2;
+      }
+
+      .cls-5 {
+        stroke-width: 9px;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-3" d="M293.6,239.7c103,28,98-125.8,98-125.8"/>
+    <path class="cls-4" d="M416.7,92.8c-21,49-50,0-50,0"/>
+  </g>
+  <rect class="cls-6" x="235.2" y="30.8" width="11" height="62"/>
+  <rect class="cls-2" x="189.2" y="72.8" width="104.5" height="86" rx="13.4" ry="13.4"/>
+  <rect class="cls-2" x="163.2" y="158.8" width="156.5" height="237.4" rx="30" ry="30"/>
+  <path class="cls-3" d="M241.4,6c8.4,0,15.2,6.8,15.2,15.3,0,8.4-6.8,15.2-15.2,15.2-8.4,0-15.2-6.8-15.3-15.2,0-8.4,6.8-15.2,15.3-15.3Z"/>
+  <path class="cls-6" d="M293.7,358.6h0c-12.8,0-23.2-10.4-23.2-23.2v-122.1c0-12.8,10.4-23.2,23.2-23.2h0c12.8,0,23.2,10.4,23.2,23.2v122.1c0,12.8-10.4,23.2-23.2,23.2Z"/>
+  <g>
+    <path class="cls-4" d="M215.2,76.3s58.9-40.8,73.4,65.2"/>
+    <polygon class="cls-6" points="227.2 71.8 197.9 44 216.3 83.5 227.2 71.8"/>
+  </g>
+  <polygon class="cls-4" points="285.4 144.5 292.2 141.9 292.1 153.2 285.4 144.5"/>
+  <circle class="cls-5" cx="247.9" cy="107" r="9"/>
+  <path class="cls-1" d="M238.9,107s8.5-16.2,16.9,0"/>
+  <g>
+    <path class="cls-3" d="M215.2,229.5c-102.9-28.5-98.6,125.3-98.6,125.3"/>
+    <path class="cls-4" d="M91.5,375.9c21.2-48.9,50,.2,50,.2"/>
+  </g>
+</svg>

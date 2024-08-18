@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 422.4 398.2">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-6, .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-6, .cls-5 {
+        fill: #a2a8a2;
+      }
+
+      .cls-2 {
+        stroke-width: 4px;
+      }
+
+      .cls-2, .cls-7 {
+        fill: #e05b26;
+      }
+
+      .cls-3 {
+        stroke: #576253;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 12px;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #a2a8a2;
+      }
+
+      .cls-5 {
+        stroke-width: 9px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="130.7" y="72.8" width="174" height="86" rx="13.4" ry="13.4"/>
+  <rect class="cls-2" x="112.4" y="158.8" width="210.6" height="237.4" rx="30" ry="30"/>
+  <rect class="cls-7" x="209.4" y="30.8" width="11" height="62"/>
+  <circle class="cls-3" cx="215.2" cy="21.2" r="15.3"/>
+  <circle class="cls-5" cx="163.4" cy="100.8" r="9"/>
+  <circle class="cls-4" cx="267.8" cy="100.8" r="9"/>
+  <path class="cls-3" d="M41.3,120s-5,153.8,98,125.8"/>
+  <path class="cls-3" d="M392.5,120s5,153.8-98,125.8"/>
+  <path class="cls-4" d="M66.3,98.9s-29,49-50,0"/>
+  <path class="cls-4" d="M417.5,98.9s-29,49-50,0"/>
+  <rect class="cls-6" x="141.8" y="191.8" width="152" height="171.3" rx="30" ry="30"/>
+  <path class="cls-4" d="M137.4,72.8s58.9-40.8,73.4,65.2"/>
+  <path class="cls-4" d="M293.7,72.8s-58.9-40.8-73.4,65.2"/>
+  <polygon class="cls-4" points="211.9 142 219.2 142 215.2 152.5 211.9 142"/>
+  <circle class="cls-5" cx="267.8" cy="100.8" r="9"/>
+  <path class="cls-1" d="M154.4,100.8s8.5-16.2,16.9,0"/>
+  <path class="cls-1" d="M259.4,100.8s8.5-16.2,16.9,0"/>
+  <polygon class="cls-6" points="288.7 74.8 318.1 46.9 299.6 86.4 288.7 74.8"/>
+  <polygon class="cls-6" points="149.4 68.3 120.1 40.5 138.5 80 149.4 68.3"/>
+</svg>
