@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>bellroy robot</title>
+  <title>Bellroy Robot</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.typekit.net/gxn0lpg.css">
   <script defer src="js/grid.js"></script>
@@ -12,32 +12,33 @@
 </head>
 
 <body>
-  <!-- pseudo nav -->
-  <div id="nav">bellroy robot</div>
+  <!-- Navigation -->
+  <nav id="nav" aria-label="Main navigation">
+    <p>bellroy robot</p>
+  </nav>
 
-  <!-- container for svg and controls -->
+  <!-- Container for SVG and controls -->
   <div id="robot_container">
-
-    <!-- svg containing grid and robot -->
-    <svg height="100%" width="100%" viewBox="0 0 600 600" class="mySvg">
-      <g id="grid_lines"></g>
-      <image id="robotImage" href="img/south.svg" class="robot_image south" x="190" y="185" height="200" />
+    
+    <!-- SVG containing grid and robot -->
+    <svg aria-labelledby="svg-title" height="100%" width="100%" viewBox="0 0 600 600" class="mySvg">
+      <title id="svg-title">Grid and Robot</title>
+      <g id="grid_lines" role="presentation"></g>
+      <image id="robotImage" href="img/south.svg" class="robot_image south" x="190" y="185" height="200" role="img" aria-label="Robot facing south" />
     </svg>
-
-    <!-- buttons -->
+    
+    <!-- Control panel with buttons -->
     <div id="control_panel">
       <div id="rotate">
         <p>Rotate:</p>
-        <p>
-          <button id="north" onClick="moveRobot('north')">N</button>
-          <button id="east" onClick="moveRobot('east')">E</button>
-          <button id="south" onClick="moveRobot('south')">S</button>
-          <button id="west" onClick="moveRobot('west')">W</button>
-        </p>
+        <button id="north" onClick="moveRobot('north')" aria-label="Rotate robot north">N</button>
+        <button id="east" onClick="moveRobot('east')" aria-label="Rotate robot east">E</button>
+        <button id="south" onClick="moveRobot('south')" aria-label="Rotate robot south">S</button>
+        <button id="west" onClick="moveRobot('west')" aria-label="Rotate robot west">W</button>
       </div>
       <div id="move">
         <p>Move:</p>
-        <button id="forwards" onClick="moveRobot(null, true)">Forwards</button>
+        <button id="forwards" onClick="moveRobot(null, true)" aria-label="Move robot forwards">Forwards</button>
       </div>
     </div>
 

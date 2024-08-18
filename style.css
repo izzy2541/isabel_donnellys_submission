@@ -19,12 +19,15 @@ body {
 
 #nav {
   height: 40px;
+  margin-bottom: 0px;
+}
+
+#nav p{
   font-family: "bd-palaktbau", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 45px;
   margin: 0.5em;
-  margin-bottom: 0px;
 }
 
 button {
@@ -92,7 +95,9 @@ button {
 .robot_image {
   transition: x 0.2s ease, y 0.2s ease;
 }
-/* 
-.west, .east{
-  width: 200px;
-} */
+
+fieldset{
+  width: 100%;
+  padding: 1em;
+  height: 110px;
+}
